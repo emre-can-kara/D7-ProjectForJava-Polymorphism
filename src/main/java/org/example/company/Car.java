@@ -22,15 +22,15 @@ public class Car {
     }
 
     public String startEngine() {
-        return getClass().getSimpleName() + " -> The car's engine is starting";
+        return getClass().getSimpleName() + "The car's engine is starting";
     }
 
     public String accelerate() {
-        return getClass().getSimpleName() + " -> The car is accelerating";
+        return getClass().getSimpleName() + "The car is accelerating";
     }
 
     public String brake() {
-        return getClass().getSimpleName() + " -> Car is braking";
+        return getClass().getSimpleName() + "The car is braking";
     }
 
     @Override
