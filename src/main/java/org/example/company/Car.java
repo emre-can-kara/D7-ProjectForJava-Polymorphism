@@ -22,15 +22,24 @@ public class Car {
     }
 
     public String startEngine() {
-        return getClass().getSimpleName() + "The car's engine is starting";
+        System.out.println("Car's engine is starting");
+        String simpleName = getClass().getSimpleName();
+        System.out.println(simpleName);
+        return "Car's engine is starting";
     }
 
     public String accelerate() {
-        return getClass().getSimpleName() + "The car is accelerating";
+        System.out.println("the car is accelerating");
+        String simpleName = getClass().getSimpleName();
+        System.out.println(simpleName);
+        return "the car is accelerating";
     }
 
     public String brake() {
-        return getClass().getSimpleName() + "The car is braking";
+        System.out.println("the car is braking");
+        String simpleName = getClass().getSimpleName();
+        System.out.println(simpleName);
+        return "the car is braking";
     }
 
     @Override
